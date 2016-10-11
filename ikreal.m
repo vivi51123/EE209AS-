@@ -5,7 +5,7 @@
 e_initial = fk(0, 0, 0, 0)*fk(0, 0, 0, 0)*fk(0, 0, 0, 0)*fk(0, 90, 0, 0);
 
 %Our desired end effector position
-e_desired = fk(0, 0, 7, 0)*fk(0, 0, 7, 0)*fk(0, 0, 7, 0)*fk(0, 90, 0, 45);
+e_desired = fk(0, 0, 5, 0)*fk(0, 0, 5, 0)*fk(0, 0, 5, 0)*fk(0, 90, 0, 45)
 
 %The difference between each step of the transformation of the end effector
 difference_e = e_desired(1:3, 4) - e_initial(1:3, 4);
